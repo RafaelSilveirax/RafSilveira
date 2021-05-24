@@ -230,7 +230,6 @@ label[for="btn_menu"]{
 }
 
 .sobre-container{
-    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -250,8 +249,6 @@ label[for="btn_menu"]{
     font-size: 1.3rem;
     margin: 8px;
     font-weight: 500;
-    
-    
 }
 
 .subTituloT1:before, .subTituloT1:after {
@@ -284,13 +281,12 @@ label[for="btn_menu"]{
 .t1 p{
     text-align: justify;
     max-width: 400px;
+    min-width: 300px;
     margin-top: 20px;
-    font-size: 1.3em;
-    
+    font-size: 1.3em; 
     font-family: 'Playfair Display', serif;
     line-height: 1.2;
 }
-
 
 
 .sobre1 img{
