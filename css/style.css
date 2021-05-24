@@ -184,7 +184,28 @@ label[for="btn_menu"]{
         display: block;
         /* ou inline, inline-block */
       }
+      header{
+        background-size: 400%;
+      }
 
+}
+
+@media only screen and (max-width:503px){
+    #main #TituloImg{
+       width: 300px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #main #TituloImg{
+       width: 250px;
+    }
+    #subTituloImg{
+        width: 250px;
+    }
+    #main h1{
+        font-size: 1.2em;
+    }
 }
 .sobre1{  
     padding: 5em ;
