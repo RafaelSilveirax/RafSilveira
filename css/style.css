@@ -154,8 +154,24 @@ label[for="btn_menu"]{
 }
 
 #Titulo{
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 500;
+}
+
+.pisca::after{
+   content: '|';
+   margin-left: 5px;
+   opacity: 1;
+   animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }
 
 #main hr{
