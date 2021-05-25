@@ -1,6 +1,6 @@
 /*Sobre 1 */
-.sobre1, .sobre2{  
-    padding: 5em ;
+.sobre1{  
+    padding: 5em 5em 1em 5em ;
 }
 .sobre-container{
     display: flex;
@@ -41,7 +41,6 @@
 #tituloT1{
     font-size: 2em;
     color: #33CCFF;
-    font-family: bebas;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -67,6 +66,60 @@
     border-radius: 20px;
 }
 
+
+/*Sobre 2 --------------------------------*/
+
 .sobre2{
-    background-color: chartreuse;
+    background-color:  #33CCFF;
+    padding:0 5em;
 }
+
+.sobre-container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.colunaP p{
+    text-align: justify;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 20px 0;
+    font-size: 1.3em; 
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+}
+
+.colunasobre2{
+    width: 300px;
+    
+}
+
+.colunasobre2 hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+    margin: 5px 0;
+}
+
+.colunasobre2 h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+}
+
+.colunasobre2 ul{
+    text-align: center;
+}
+.colunasobre2 li{ 
+    list-style: none;
+    padding: 5px 0;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
