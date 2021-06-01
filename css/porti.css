@@ -1,0 +1,88 @@
+#Projetos{
+   min-height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#Projetos .tituloPorti{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.tituloPorti h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+
+}
+
+.subTituloP1{
+    position: relative;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 8px;
+    font-weight: 500;
+}
+
+.subTituloP1:before, .subTituloP1:after {
+  content: "";
+  position: absolute;
+  top: 0.80em;
+  width: 2em;
+  height: 0.15em;
+  background-color:#33CCFF;
+  left: -2.5em;
+}
+
+.subTituloP1:after{
+    left: initial;
+    right: -2.5em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+
+.tituloPorti h2{
+    font-size: 2.4em;
+    color: #33CCFF;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+.contanierProjetos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.polaroid{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+  margin: 10px;
+  transition: transform, 500ms;
+}
+
+#Projetos img{
+    width: 358px;
+    height: 224px;  
+    
+}
+
+div.containerPola {
+    background-color: rgba(17, 17, 17, 0.822);
+    text-align: center;
+    margin-top: -5px;
+    
+}
+
+.containerPola p{
+    padding: 5px 20px;
+    color: #33CCFF;
+}
+
+.polaroid:hover{
+    transform: scale(1.2);
+}

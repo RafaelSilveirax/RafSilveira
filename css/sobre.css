@@ -93,6 +93,10 @@
     line-height: 1.2;
 }
 
+.colunasobre h1{
+    font-size: 1.4em;
+}
+
 .colunasobre2{
     width: 300px;
     
@@ -109,7 +113,7 @@
     text-align: center;
     padding-bottom: 10px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .colunasobre2 ul{
@@ -120,6 +124,7 @@
     padding: 5px 0;
     font-weight: 500;
     font-family: 'Noto Sans', sans-serif;
+    text-transform: lowercase;
     
 }
 
