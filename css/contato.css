@@ -1,0 +1,71 @@
+.contatoC{
+    padding-top: 3em;
+    display: flex;
+     justify-content: center;
+     align-items: center;  
+ }
+ 
+ #contato .tituloPorti{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contato .tituloPorti h2{
+    padding-bottom: 10px;
+    color: black;
+}
+
+
+.containerContato{
+    text-align: center;
+}
+
+#contato a{
+    color: black;
+    font-size: 8em;
+    transition: text-shadow 0.5s;
+}
+
+.contato a:active, .contato a:hover{
+    text-shadow: 0px 0px 10px rgb(0, 0, 0, 1);
+}
+
+
+
+.contatoC{
+        min-height: 30vh;
+        width: 100%;
+        background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+        position: relative;
+        background-size: 400% 400%;
+        animation: change 7s ease-in-out infinite ;  
+    }
+   
+@keyframes change {
+    0%{
+        background-position:0 50% ;
+    }
+    50%{
+        background-position:100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }   
+}
+    
+@media only screen and (max-width: 650px){ 
+
+    #contato a{
+        font-size: 5em;
+    }
+
+}
+    
+@media only screen and (max-width: 400px){ 
+
+    #contato a{
+        font-size: 4em;
+    }
+
+}
+    

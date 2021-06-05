@@ -2,8 +2,8 @@
    min-height: 100vh;
    display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
+    padding-bottom: 2em; 
 }
 
 
@@ -67,8 +67,7 @@
 
 #Projetos img{
     width: 358px;
-    height: 224px;  
-    
+    height: 224px;   
 }
 
 div.containerPola {
@@ -85,4 +84,16 @@ div.containerPola {
 
 .polaroid:hover{
     transform: scale(1.2);
+}
+
+@media only screen and (max-width: 450px){
+    #Projetos img{
+        width: 308px;
+        height: 204px;   
+    }
+
+    .polaroid:hover{
+        transform: scale(1);
+    }
+     
 }
