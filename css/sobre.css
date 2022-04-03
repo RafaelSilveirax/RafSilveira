@@ -65,18 +65,58 @@
 .divPicture{
     display: flex;
     max-width: 500px;
-    width: 500px;
+    width: 100% ;
     align-items: center;
     justify-content: center;
 }
+.divAnimation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* width: 100%;  */
+    position: relative;
+    overflow: hidden;
+    padding:6px; 
+    border-radius: 5px
+    
+}
 
+.animationDiv{
+    border-radius: 20px;
+    z-index: 10; 
+    width: 400px;
+}
 
+.divAnimation::before{
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 160%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: animate 4s linear infinite; 
+    border-radius: 20px;  
+}
 
-.sobre1 img{
+.divAnimation::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(350deg);
+    }
+}
+
+/* .sobre1 img{
     border-radius: 20px;
     max-width: 400px;
     width: 100%;
-}
+} */
 
 
 /*Sobre 2 --------------------------------*/
