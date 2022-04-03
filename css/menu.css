@@ -4,6 +4,7 @@
     width: 100vw;
     padding-bottom: 15px;
     z-index: 5;
+    margin: 0px;
 }
 .logo{
     display: flex;

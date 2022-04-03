@@ -15,6 +15,7 @@
     font-weight: 500;
 }
 #subTituloImg{
+    width: 400px;
     margin-top: 50px !important;
 }
 
@@ -72,7 +73,7 @@
     }
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
     #main #TituloImg{
        width: 250px;
     }

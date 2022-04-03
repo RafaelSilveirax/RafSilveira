@@ -1,6 +1,6 @@
 /*Sobre 1 */
 .sobre1{  
-    padding: 1em 5em 1em 5em ;
+    padding: 2em 5em 2em 5em ;
 }
 .sobre-container{
     display: flex;
@@ -149,17 +149,11 @@
 }
 
 .exp{
-   /*  margin: 20px 0;
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    padding: 20px; */
-    /* box-shadow: 10px 10px 10px black; */
     margin: 20px 0;
-    background-color: white;
+    background-color: #33ccff;
     border-radius: 5px;
     padding: 20px;
-    /* box-shadow: 0px 1px 15px black; */
-    border: solid 2px #cecdcd;
+    box-shadow: 0px 1px 15px black;
 }
 
 .exp .subTituloT1:before,  .exp .subTituloT1:after {
