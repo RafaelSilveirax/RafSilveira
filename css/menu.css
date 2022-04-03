@@ -42,9 +42,7 @@
 }
 /*Menu responsivo*/
 
-@media only screen and (max-width: 800px){
-  
-}
+
 
 label[for="btn_menu"]{
     padding: 5px;
@@ -61,7 +59,7 @@ label[for="btn_menu"]{
     display: none;   
     top: 0;
     left: 0;
-    z-index: 13;
+    z-index: 999;
 }
 #btn_menu{
     display:none ;
@@ -99,6 +97,8 @@ label[for="btn_menu"]{
      }
      
    #btn_menu:checked ~ .menu{
-       margin-left: 0;    
+       margin-left: 0; 
+       background-color: #222222;
+       z-index: 99;  
    }
 }

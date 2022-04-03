@@ -1,8 +1,8 @@
 .contatoC{
     padding-top: 3em;
-    display: flex;
+   /*  display: flex;
      justify-content: center;
-     align-items: center;  
+     align-items: center;   */
  }
  
  #contato .tituloPorti{
@@ -18,6 +18,9 @@
 
 .containerContato{
     text-align: center;
+}
+.containerContato a{
+    text-decoration: unset;
 }
 
 #contato a{
@@ -68,4 +71,12 @@
     }
 
 }
-    
+
+.contatoC span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+}
