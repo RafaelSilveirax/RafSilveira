@@ -15,6 +15,7 @@
 .logo{
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 .menu img{
     width: 200px;
@@ -118,5 +119,6 @@ label[for="btn_menu"]{
    }
    .logo{
     width: 100%;
+   
    }
 }
