@@ -76,13 +76,13 @@
      /* width: 100%;  */
     position: relative;
     overflow: hidden;
-    padding:6px; 
-    border-radius: 5px
+    padding:8px; 
+    border-radius: 8px
     
 }
 
 .animationDiv{
-    border-radius: 20px;
+    border-radius: 8px;
     z-index: 10; 
     width: 400px;
 }
@@ -90,11 +90,10 @@
 .divAnimation::before{
     content: '';
     position: absolute;
-    width: 350px;
-    height: 160%;
+    width: 600px;
+    height: 700px;
     background: linear-gradient(#00ccff, #d400d4);
-    animation: animate 4s linear infinite; 
-    border-radius: 20px;  
+    animation: animate 4s linear infinite;  
 }
 
 .divAnimation::after{

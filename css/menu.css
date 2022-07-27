@@ -80,7 +80,7 @@ label[for="btn_menu"]{
         transition: all 1s;
         margin-left: -2000px;
         position: fixed;
-        height: 100vh;
+        height: 100%;
         width: 75%;
         left: 0;
         top: 0;
