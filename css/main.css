@@ -3,12 +3,19 @@
 
 #main{  
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1rem  3rem;
+    padding: 1rem 3rem;
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+    animation: linear  .5s animacaoTitulo forwards;
 }
+
+@keyframes animacaoTitulo{ 
+    100%{
+        transform: translate3d(0, 0px, 0);
+        opacity: 1;
+    }
+}
+
 
 #Titulo{
     font-size: 1.5em;

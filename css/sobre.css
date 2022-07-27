@@ -224,7 +224,10 @@
 
 
 @media only screen and (max-width: 600px){
-.sobre1, .sobre2{
-    padding: 1em 0;
+    .sobre1, .sobre2{
+        padding: 1em 0;
+    }
+    .divAnimation{
+        margin: 0 20px;
     }
 }

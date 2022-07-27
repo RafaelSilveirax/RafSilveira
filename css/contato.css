@@ -36,7 +36,7 @@
 
 
 .contatoC{
-        min-height: 30vh;
+        /* min-height: 30vh; */
         width: 100%;
         background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
         position: relative;

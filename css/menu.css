@@ -5,7 +5,13 @@
     padding-bottom: 15px;
     z-index: 5;
     margin: 0px;
+    position: fixed;
+    background-color: #ffffff00;
+    -webkit-transition: background-color .5s linear;
+    -ms-transition: background-color .5s linear;
+    transition: background-color .5s linear;
 }
+
 .logo{
     display: flex;
     justify-content: space-between;
@@ -72,8 +78,15 @@ label[for="btn_menu"]{
     }
     .menu{
         transition: all 1s;
-        margin-left: -2000px;  
-        position: fixed;       
+        margin-left: -2000px;
+        position: fixed;
+        height: 100vh;
+        width: 75%;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;      
      }
     .menu img{
         display: none;
@@ -82,9 +95,10 @@ label[for="btn_menu"]{
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin: 0px 30px;
      }
      .menu li{
-         width: 60%;
+         width: 100%;
          text-align: center;
          margin: 2px;
          border: solid black 1px;
@@ -94,11 +108,15 @@ label[for="btn_menu"]{
      .menu li a{
          margin-top: 8px;
          font-style: normal;
+         color: #222 !important;
      }
      
    #btn_menu:checked ~ .menu{
        margin-left: 0; 
        background-color: #222222;
        z-index: 99;  
+   }
+   .logo{
+    width: 100%;
    }
 }
