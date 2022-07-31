@@ -52,33 +52,79 @@
 
 
 label[for="btn_menu"]{
-    padding: 5px;
     background-color: #222;
-    color: #fff;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    text-align: center;
-    font-size: 30px;
     cursor: pointer;
     width: 50px;
-    height: 50px;  
+    height: 50px;
     position: fixed;
     z-index: 2;
-    display: none;   
+    display: none;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 #btn_menu{
     display:none ;
-    z-index: 13;
 }
 
 @media only screen and (max-width: 800px){
     label[for="btn_menu"]{
-        display:block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .hamburguer {
+        position: relative;
+        display: block;
+        background: white;
+        width: 30px;
+        height: 2px;
+        /* top: 29px; */  
+        /* left: 15px; */
+        transition: 0.5s ease-in-out;
+      }
+      
+      .hamburguer:before,
+      .hamburguer:after {
+        background: white;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s ease-in-out;
+      }
+      
+      .hamburguer:before {
+        top: -10px;
+      }
+      
+      .hamburguer:after {
+        bottom: -10px;
+      }
+      
+      input {
+        display: none;
+      }
+      
+      input:checked ~ label .hamburguer {
+        transform: rotate(45deg);
+      }
+      
+      input:checked ~ label .hamburguer:before {
+        transform: rotate(90deg);
+        top: 0;
+      }
+      
+      input:checked ~ label .hamburguer:after {
+        transform: rotate(90deg);
+        bottom: 0;
+      }
+
+
     .menu{
-        transition: all 1s;
+        transition: all .5s ease-in-out;
         margin-left: -2000px;
         position: fixed;
         height: 100%;
@@ -119,6 +165,5 @@ label[for="btn_menu"]{
    }
    .logo{
     width: 100%;
-   
    }
 }
