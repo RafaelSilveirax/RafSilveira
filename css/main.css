@@ -71,6 +71,9 @@
       header{
         background-size: 400%;
       }
+      #subTituloImg{
+        width: 250px;
+    }
 
 }
 
@@ -84,9 +87,7 @@
     #main #TituloImg{
        width: 250px;
     }
-    #subTituloImg{
-        width: 250px;
-    }
+    
     #main h1{
         font-size: 1.2em;
     }
